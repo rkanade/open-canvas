@@ -40,6 +40,11 @@ export const OPENAI_MODELS = [
     label: "GPT-4o mini",
     isNew: false,
   },
+  {
+    name: "gpt-4o-2024-08-06",
+    label: "GPT-4o",
+    isNew: false,
+  },
 ];
 
 export const ANTHROPIC_MODELS = [
@@ -73,7 +78,7 @@ export const GEMINI_MODELS = [
     isNew: false,
   },
 ];
-export const DEFAULT_MODEL_NAME: ALL_MODEL_NAMES = "gpt-4o-mini";
+export const DEFAULT_MODEL_NAME: ALL_MODEL_NAMES = "gpt-4o-2024-08-06";
 export type OPENAI_MODEL_NAMES = (typeof OPENAI_MODELS)[number]["name"];
 export type ANTHROPIC_MODEL_NAMES = (typeof ANTHROPIC_MODELS)[number]["name"];
 export type FIREWORKS_MODEL_NAMES = (typeof FIREWORKS_MODELS)[number]["name"];

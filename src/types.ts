@@ -13,7 +13,7 @@ export interface ToolCall {
   result?: any;
 }
 
-export type Model = "gpt-4o-mini" | string; // Add other model options as needed
+export type Model = "gpt-4o-2024-08-06" | string; // Add other model options as needed
 
 export type UserRules = {
   styleRules: string[];
